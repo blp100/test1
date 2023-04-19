@@ -9,7 +9,7 @@ app.set("view engine", "ejs");
 app.get("/", (req, res)=>{
     let today = new Date();
     let currentDay = today.getDay();
-    let day = (currentDay == 6 || currentDay == 0)? "假日。趕快出來玩！": "平日。好好當社畜。";
+    let day = (currentDay == 6 || currentDay == 0)? "假日，趕快出來玩！": "平日，好好當社畜。";
 
     res.render("index",{kindOfDay: day});
 })
