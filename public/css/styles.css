@@ -1,0 +1,24 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #ECF9FF;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    color: #F8CBA6;
+}
+
+p{    
+    color: #F8CBA6;
+    line-height: 1.5;
+}
+#testing{
+    margin: 100px 30%;
+    padding: 100px;
+    border-radius: 25px;
+    background-color: #FFFBEB;
+    font-family: 'Potta One', cursive;
+}
+#testing h1{
+    font-size: 5rem;
+}
